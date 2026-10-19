@@ -77,9 +77,30 @@ function classifyBody(filename) {
   return matches[0]?.body ?? { label: GENERAL_CATEGORY, folder: GENERAL_CATEGORY };
 }
 
-function extractYear(filename) {
+function extractYear(filename, relativeDirectory) {
   const matches = filename.match(/(?<!\d)(?:19|20)\d{2}(?!\d)/g);
-  return matches?.at(-1) ?? 'Undated';
+  if (matches?.length) return matches.at(-1);
+  const directories = relativeDirectory.split(/[\\/]/);
+  const directoryYear = [...directories].reverse().find((part) => /^(?:19|20)\d{2}$/.test(part));
+  if (directoryYear) return directoryYear;
+  return directories.includes('incoming-2026') ? '2026' : 'Undated';
+}
+
+function classifyClasses(filename) {
+  const normalized = normalizeWords(filename);
+  const keys = new Set();
+  for (const match of normalized.matchAll(/(?:^|\s)P\s*([1-7])(?=\s|$)/g)) {
+    keys.add(`p${match[1]}`);
+  }
+  for (const match of normalized.matchAll(/(?:^|\s)S\s*([1-6])(?=\s|$)/g)) {
+    keys.add(`s${match[1]}`);
+  }
+  if (hasPhrase(filename, 'UCE')) keys.add('s4');
+  if (hasPhrase(filename, 'UACE')) {
+    keys.add('s5');
+    keys.add('s6');
+  }
+  return [...keys].sort();
 }
 
 function classifySubject(filename) {
@@ -125,7 +146,9 @@ async function findResources(directory, relativeDirectory = '') {
 
 function categorize(resource) {
   const body = classifyBody(resource.filename);
-  const year = extractYear(resource.filename);
+  const year = extractYear(resource.filename, path.dirname(resource.relativePath));
+  const classKeys = classifyClasses(resource.filename);
+  if (!classKeys.length) classKeys.push('unsorted');
   const category = isSampleUnebPaper(resource.filename) ? SAMPLE_UNEB_CATEGORY : body.label;
   const folder = category === SAMPLE_UNEB_CATEGORY ? SAMPLE_UNEB_CATEGORY : body.folder;
   const relativePath = path.join(folder, year, resource.filename);
@@ -134,6 +157,7 @@ function categorize(resource) {
     body: body.label,
     category,
     year,
+    classKeys,
     subject: classifySubject(resource.filename),
     type: classifyType(resource.filename),
     targetPath: relativePath,
@@ -152,6 +176,7 @@ function makeCatalog(resources) {
       category: resource.category,
       body: resource.body,
       year: resource.year,
+      classKeys: resource.classKeys,
       subject: resource.subject,
       type: resource.type,
       extension: path.extname(resource.filename).slice(1).toLocaleLowerCase('en'),
@@ -167,7 +192,7 @@ function makeCatalog(resources) {
   );
 
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     generatedAt: new Date().toISOString(),
     repository: 'https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026',
     count: items.length,
