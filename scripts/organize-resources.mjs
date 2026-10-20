@@ -1,4 +1,5 @@
-import { readdir, mkdir, rename, readFile, writeFile, mkdtemp, rm } from 'node:fs/promises';
+import { readdir, mkdir, rename, readFile, writeFile, mkdtemp, rm, copyFile, stat, unlink } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
 import os from 'node:os';
 import path from 'node:path';
@@ -80,10 +81,11 @@ function classifyBody(filename) {
 function extractYear(filename, relativeDirectory) {
   const matches = filename.match(/(?<!\d)(?:19|20)\d{2}(?!\d)/g);
   if (matches?.length) return matches.at(-1);
-  const directories = relativeDirectory.split(/[\\/]/);
-  const directoryYear = [...directories].reverse().find((part) => /^(?:19|20)\d{2}$/.test(part));
-  if (directoryYear) return directoryYear;
-  return directories.includes('incoming-2026') ? '2026' : 'Undated';
+  const directoryYear = relativeDirectory
+    .split(/[\\/]/)
+    .reverse()
+    .find((part) => /^(?:19|20)\d{2}$/.test(part));
+  return directoryYear ?? 'Undated';
 }
 
 function classifyClasses(filename) {
@@ -251,17 +253,128 @@ async function moveResourcesOnWindows(moves) {
   }
 }
 
+async function fileHash(filePath) {
+  return createHash('sha256').update(await readFile(filePath)).digest('hex');
+}
+
+async function importResources(importDirectory, existingResources) {
+  const sources = await findResources(importDirectory);
+
+  const counts = { imported: 0, reclassified: 0, replaced: 0, reused: 0, skippedEmpty: 0 };
+
+  for (const source of sources) {
+    const sourceStat = await stat(source.absolutePath);
+    if (sourceStat.size === 0) {
+      counts.skippedEmpty += 1;
+      console.warn(`Skipping empty source file: ${source.relativePath}`);
+      continue;
+    }
+
+    const sourceRelativePath = path.join('2026', source.relativePath);
+    const categorized = categorize({ ...source, relativePath: sourceRelativePath });
+    const destination = path.resolve(root, categorized.targetPath);
+    const sourceHash = await fileHash(source.absolutePath);
+    const stem = path.basename(source.filename, path.extname(source.filename)).toLocaleLowerCase('en');
+    const extension = path.extname(source.filename).toLocaleLowerCase('en');
+    const siblings = existingResources.filter((item) => {
+      const filename = item.filename.toLocaleLowerCase('en');
+      return filename === source.filename.toLocaleLowerCase('en')
+        || filename.startsWith(`${stem} (2026 import)${extension}`);
+    });
+    const existingDestination = siblings.find((item) => path.resolve(root, item.relativePath) === destination);
+
+    if (existingDestination) {
+      const destinationStat = await stat(existingDestination.absolutePath);
+      if (destinationStat.size > 0 && await fileHash(existingDestination.absolutePath) === sourceHash) {
+        counts.reused += 1;
+        continue;
+      }
+
+      if (destinationStat.size === 0) {
+        await copyFile(source.absolutePath, existingDestination.absolutePath);
+        counts.replaced += 1;
+        for (const sibling of siblings) {
+          if (sibling === existingDestination || !sibling.filename.toLocaleLowerCase('en').startsWith(`${stem} (2026 import)${extension}`)) continue;
+          if (await fileHash(sibling.absolutePath) === sourceHash) {
+            await unlink(sibling.absolutePath);
+          }
+        }
+        continue;
+      }
+    }
+
+    const matchingExisting = [];
+    for (const candidate of siblings) {
+      if (path.resolve(root, candidate.relativePath) === destination) continue;
+      if (await fileHash(candidate.absolutePath) === sourceHash) matchingExisting.push(candidate);
+    }
+    const reusable = matchingExisting.find((candidate) => !existingDestination);
+    if (reusable) {
+      await mkdir(path.dirname(destination), { recursive: true });
+      await rename(reusable.absolutePath, destination);
+      counts.reclassified += 1;
+      continue;
+    }
+    if (matchingExisting.length) {
+      counts.reused += 1;
+      continue;
+    }
+
+    const importFilename = `${path.basename(source.filename, path.extname(source.filename))} (2026 import)${path.extname(source.filename)}`;
+    const importPath = path.join(path.dirname(categorized.targetPath), importFilename);
+    const importDestination = path.resolve(root, importPath);
+    let destinationExists = true;
+    try {
+      await stat(destination);
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+      destinationExists = false;
+    }
+    if (destinationExists) {
+      try {
+        const existingImport = await readFile(importDestination);
+        if (createHash('sha256').update(existingImport).digest('hex') === sourceHash) {
+          counts.reused += 1;
+          continue;
+        }
+        throw new Error(`2026 import destination already contains different content: ${importPath}`);
+      } catch (error) {
+        if (error.code !== 'ENOENT') throw error;
+      }
+      await copyFile(source.absolutePath, importDestination);
+    } else {
+      await copyFile(source.absolutePath, destination);
+    }
+    counts.imported += 1;
+  }
+
+  return counts;
+}
+
 const args = process.argv.slice(2);
 const checkOnly = args.includes('--check');
 const rootArgument = args.indexOf('--root');
+const importArgument = args.indexOf('--import-dir');
 const root = rootArgument >= 0
   ? path.resolve(args[rootArgument + 1] ?? '')
   : REPOSITORY_ROOT;
 if (rootArgument >= 0 && !args[rootArgument + 1]) {
   throw new Error('Provide a directory after --root.');
 }
+if (importArgument >= 0 && !args[importArgument + 1]) {
+  throw new Error('Provide a directory after --import-dir.');
+}
+if (checkOnly && importArgument >= 0) {
+  throw new Error('--check cannot be combined with --import-dir.');
+}
 
-const discovered = await findResources(root);
+let discovered = await findResources(root);
+if (importArgument >= 0) {
+  const importDirectory = path.resolve(args[importArgument + 1]);
+  const importCounts = await importResources(importDirectory, discovered);
+  console.log(`2026 source import: ${importCounts.imported} added, ${importCounts.reclassified} reclassified, ${importCounts.replaced} repaired, ${importCounts.reused} already present, ${importCounts.skippedEmpty} empty skipped.`);
+  discovered = await findResources(root);
+}
 const resources = discovered.map(categorize);
 const destinations = new Set();
 

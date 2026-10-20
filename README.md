@@ -12,6 +12,14 @@ To organize new files and regenerate the catalog, run from the repository root:
 node scripts/organize-resources.mjs
 ```
 
+To import files from a source folder without overwriting different files already in the archive:
+
+```powershell
+node scripts/organize-resources.mjs --import-dir "I:\phone doc\premium current\2026"
+```
+
+The importer uses each source subfolder to supply a year when a filename has no year, identifies mock bodies and class levels from filenames, skips empty files, and keeps distinct files with the same name by adding a `(2026 import)` suffix. Every catalog item includes `classKeys`; resources without a recognizable class are assigned to the `unsorted` library tile.
+
 To validate the folders and catalog without moving or writing anything:
 
 ```powershell
