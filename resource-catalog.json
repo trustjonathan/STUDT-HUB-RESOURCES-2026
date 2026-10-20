@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19T23:04:46.879Z",
+  "generatedAt": "2026-10-20T18:40:11.342Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1101,
-  "trending2026Count": 220,
+  "count": 1098,
+  "trending2026Count": 232,
   "countsByBody": {
-    "ACEITEKA": 13,
+    "ACEITEKA": 12,
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
-    "General - Unclassified": 891,
+    "General - Unclassified": 890,
     "JJEB": 45,
     "KAMSSA": 4,
     "KASSEC - KASSHIPA": 4,
@@ -19,16 +19,16 @@
     "Mukono District Joint Mock Examinations Board": 2,
     "NEREB": 7,
     "UMTA Mock Board": 24,
-    "UTEC": 13,
+    "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57
   },
   "countsByCategory": {
-    "ACEITEKA": 13,
+    "ACEITEKA": 12,
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
-    "General - Unclassified": 885,
+    "General - Unclassified": 884,
     "JJEB": 45,
     "KAMSSA": 4,
     "KASSEC - KASSHIPA": 4,
@@ -39,7 +39,7 @@
     "NEREB": 7,
     "Sample UNEB Papers": 6,
     "UMTA Mock Board": 24,
-    "UTEC": 13,
+    "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57
   },
@@ -54,8 +54,8 @@
     "2023": 12,
     "2024": 59,
     "2025": 168,
-    "2026": 220,
-    "Undated": 625
+    "2026": 232,
+    "Undated": 610
   },
   "resources": [
     {
@@ -86,36 +86,6 @@
         "s6"
       ],
       "subject": "General",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
-      "title": "Aceiteka Sub Scoring guide",
-      "filename": "Aceiteka Sub Scoring guide.pdf",
-      "path": "ACEITEKA/Undated/Aceiteka Sub Scoring guide.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/ACEITEKA/Undated/Aceiteka%20Sub%20Scoring%20guide.pdf",
-      "category": "ACEITEKA",
-      "body": "ACEITEKA",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "General",
-      "type": "Marking Guides",
-      "extension": "pdf"
-    },
-    {
-      "title": "Sub maths Aceiteka",
-      "filename": "Sub maths Aceiteka.pdf",
-      "path": "ACEITEKA/Undated/Sub maths Aceiteka.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/ACEITEKA/Undated/Sub%20maths%20Aceiteka.pdf",
-      "category": "ACEITEKA",
-      "body": "ACEITEKA",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "Mathematics",
       "type": "Study Resources",
       "extension": "pdf"
     },
@@ -5582,21 +5552,6 @@
       "extension": "pdf"
     },
     {
-      "title": "A LEVEL HISTORY PAPER 2",
-      "filename": "A LEVEL HISTORY PAPER 2.pdf",
-      "path": "General - Unclassified/Undated/A LEVEL HISTORY PAPER 2.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/A%20LEVEL%20HISTORY%20PAPER%202.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "History",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": "A level mathematcs seminar solutions paper 2",
       "filename": "A level mathematcs seminar solutions paper 2.pdf",
       "path": "General - Unclassified/Undated/A level mathematcs seminar solutions paper 2.pdf",
@@ -5773,36 +5728,6 @@
         "unsorted"
       ],
       "subject": "History",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
-      "title": "AGRICULTURE 3",
-      "filename": "AGRICULTURE 3.pdf",
-      "path": "General - Unclassified/Undated/AGRICULTURE 3.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/AGRICULTURE%203.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "Agriculture",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
-      "title": "AGRICULTURE ECONOMICS AND FARM MANAGEMENT",
-      "filename": "AGRICULTURE ECONOMICS AND FARM MANAGEMENT.pdf",
-      "path": "General - Unclassified/Undated/AGRICULTURE ECONOMICS AND FARM MANAGEMENT.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/AGRICULTURE%20ECONOMICS%20AND%20FARM%20MANAGEMENT.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "Economics",
       "type": "Study Resources",
       "extension": "pdf"
     },
@@ -6183,21 +6108,6 @@
       "extension": "docx"
     },
     {
-      "title": "COMPILATION OF PHYSICS PRACTICALS_unlocked",
-      "filename": "COMPILATION OF PHYSICS PRACTICALS_unlocked.pdf",
-      "path": "General - Unclassified/Undated/COMPILATION OF PHYSICS PRACTICALS_unlocked.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/COMPILATION%20OF%20PHYSICS%20PRACTICALS_unlocked.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "Physics",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": "compressed_S.2 math baroque learners book",
       "filename": "compressed_S.2 math baroque learners book.pdf",
       "path": "General - Unclassified/Undated/compressed_S.2 math baroque learners book.pdf",
@@ -6374,21 +6284,6 @@
         "unsorted"
       ],
       "subject": "Physics",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
-      "title": "Foundations of A'level Chemistry Organic by G Katumba_065059",
-      "filename": "Foundations of A'level Chemistry Organic by G Katumba_065059.pdf",
-      "path": "General - Unclassified/Undated/Foundations of A'level Chemistry Organic by G Katumba_065059.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/Foundations%20of%20A'level%20Chemistry%20Organic%20by%20G%20Katumba_065059.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "Chemistry",
       "type": "Study Resources",
       "extension": "pdf"
     },
@@ -7870,21 +7765,6 @@
       "extension": "pdf"
     },
     {
-      "title": "SEMINAR SOLUTIONS LATEST",
-      "filename": "SEMINAR SOLUTIONS LATEST.pdf",
-      "path": "General - Unclassified/Undated/SEMINAR SOLUTIONS LATEST.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/SEMINAR%20SOLUTIONS%20LATEST.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "General",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": "SEMINAR solutions_105717",
       "filename": "SEMINAR solutions_105717.pdf",
       "path": "General - Unclassified/Undated/SEMINAR solutions_105717.pdf",
@@ -8068,22 +7948,6 @@
       "extension": "pdf"
     },
     {
-      "title": "UACE AITEL PRINCIPAL MATHEMATICS 1 (1)",
-      "filename": "UACE AITEL PRINCIPAL MATHEMATICS 1 (1).pdf",
-      "path": "General - Unclassified/Undated/UACE AITEL PRINCIPAL MATHEMATICS 1 (1).pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/UACE%20AITEL%20PRINCIPAL%20MATHEMATICS%201%20(1).pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "s5",
-        "s6"
-      ],
-      "subject": "Mathematics",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": "UACE CHEMISTRY ITEM BANK NCDC",
       "filename": "UACE CHEMISTRY ITEM BANK NCDC.pdf",
       "path": "General - Unclassified/Undated/UACE CHEMISTRY ITEM BANK NCDC.pdf",
@@ -8148,22 +8012,6 @@
       "extension": "pdf"
     },
     {
-      "title": "Uace physics one seminar Naggalama ",
-      "filename": "Uace physics one seminar Naggalama .pdf",
-      "path": "General - Unclassified/Undated/Uace physics one seminar Naggalama .pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/Uace%20physics%20one%20seminar%20Naggalama%20.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "s5",
-        "s6"
-      ],
-      "subject": "Physics",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": "UACE SCORE GUIDE...CHEMISTRY PAPER ONE.",
       "filename": "UACE SCORE GUIDE...CHEMISTRY PAPER ONE..pdf",
       "path": "General - Unclassified/Undated/UACE SCORE GUIDE...CHEMISTRY PAPER ONE..pdf",
@@ -8177,22 +8025,6 @@
       ],
       "subject": "Chemistry",
       "type": "Marking Guides",
-      "extension": "pdf"
-    },
-    {
-      "title": "uace seminar Naggalama phy solutions ",
-      "filename": "uace seminar Naggalama phy solutions .pdf",
-      "path": "General - Unclassified/Undated/uace seminar Naggalama phy solutions .pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/uace%20seminar%20Naggalama%20phy%20solutions%20.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "s5",
-        "s6"
-      ],
-      "subject": "Physics",
-      "type": "Study Resources",
       "extension": "pdf"
     },
     {
@@ -8268,21 +8100,6 @@
         "p1"
       ],
       "subject": "Chemistry",
-      "type": "Marking Guides",
-      "extension": "pdf"
-    },
-    {
-      "title": "unnase scoring guide math2",
-      "filename": "unnase scoring guide math2.pdf",
-      "path": "General - Unclassified/Undated/unnase scoring guide math2.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/Undated/unnase%20scoring%20guide%20math2.pdf",
-      "category": "General - Unclassified",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "General",
       "type": "Marking Guides",
       "extension": "pdf"
     },
@@ -8754,21 +8571,6 @@
       "extension": "pdf"
     },
     {
-      "title": "Physics P5101 JJEB",
-      "filename": "Physics P5101 JJEB.pdf",
-      "path": "JJEB/Undated/Physics P5101 JJEB.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/JJEB/Undated/Physics%20P5101%20JJEB.pdf",
-      "category": "JJEB",
-      "body": "JJEB",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "Physics",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": "PROPOSED SCORING GUIDE JJEB CHEMISTRY THEORY BY CHRISTOPHER",
       "filename": "PROPOSED SCORING GUIDE JJEB CHEMISTRY THEORY BY CHRISTOPHER.pdf",
       "path": "JJEB/Undated/PROPOSED SCORING GUIDE JJEB CHEMISTRY THEORY BY CHRISTOPHER.pdf",
@@ -8868,22 +8670,6 @@
       "year": "Undated",
       "classKeys": [
         "unsorted"
-      ],
-      "subject": "Physics",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
-      "title": "kamssa uace physics paper 2",
-      "filename": "kamssa uace physics paper 2.pdf",
-      "path": "KAMSSA/Undated/kamssa uace physics paper 2.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/KAMSSA/Undated/kamssa%20uace%20physics%20paper%202.pdf",
-      "category": "KAMSSA",
-      "body": "KAMSSA",
-      "year": "Undated",
-      "classKeys": [
-        "s5",
-        "s6"
       ],
       "subject": "Physics",
       "type": "Study Resources",
@@ -9468,34 +9254,17 @@
       "extension": "pdf"
     },
     {
-      "title": "WAKISHA UACE CHEMISTRY 26 -rt",
-      "filename": "WAKISHA UACE CHEMISTRY 26 -rt.pdf",
-      "path": "WAKISSHA Joint Examinations Board/Undated/WAKISHA UACE CHEMISTRY 26 -rt.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/WAKISSHA%20Joint%20Examinations%20Board/Undated/WAKISHA%20UACE%20CHEMISTRY%2026%20-rt.pdf",
-      "category": "WAKISSHA Joint Examinations Board",
-      "body": "WAKISSHA Joint Examinations Board",
-      "year": "Undated",
-      "classKeys": [
-        "s5",
-        "s6"
-      ],
-      "subject": "Chemistry",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
-      "title": "Guide Aceiteka UACE 2026 math paper 1 (2026 import)",
-      "filename": "Guide Aceiteka UACE 2026 math paper 1 (2026 import).pdf",
-      "path": "ACEITEKA/2026/Guide Aceiteka UACE 2026 math paper 1 (2026 import).pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/ACEITEKA/2026/Guide%20Aceiteka%20UACE%202026%20math%20paper%201%20(2026%20import).pdf",
+      "title": "Aceiteka Sub Scoring guide",
+      "filename": "Aceiteka Sub Scoring guide.pdf",
+      "path": "ACEITEKA/2026/Aceiteka Sub Scoring guide.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/ACEITEKA/2026/Aceiteka%20Sub%20Scoring%20guide.pdf",
       "category": "ACEITEKA",
       "body": "ACEITEKA",
       "year": "2026",
       "classKeys": [
-        "s5",
-        "s6"
+        "unsorted"
       ],
-      "subject": "Mathematics",
+      "subject": "General",
       "type": "Marking Guides",
       "extension": "pdf"
     },
@@ -9527,6 +9296,21 @@
         "s4"
       ],
       "subject": "Geography",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
+      "title": "Sub maths Aceiteka",
+      "filename": "Sub maths Aceiteka.pdf",
+      "path": "ACEITEKA/2026/Sub maths Aceiteka.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/ACEITEKA/2026/Sub%20maths%20Aceiteka.pdf",
+      "category": "ACEITEKA",
+      "body": "ACEITEKA",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "Mathematics",
       "type": "Study Resources",
       "extension": "pdf"
     },
@@ -9681,6 +9465,21 @@
       "extension": "pdf"
     },
     {
+      "title": "A LEVEL HISTORY PAPER 2",
+      "filename": "A LEVEL HISTORY PAPER 2.pdf",
+      "path": "General - Unclassified/2026/A LEVEL HISTORY PAPER 2.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/A%20LEVEL%20HISTORY%20PAPER%202.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "History",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
       "title": "A level Math questions - Naggalama 2026",
       "filename": "A level Math questions - Naggalama 2026.pdf",
       "path": "General - Unclassified/2026/A level Math questions - Naggalama 2026.pdf",
@@ -9827,6 +9626,36 @@
         "s4"
       ],
       "subject": "Agriculture",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
+      "title": "AGRICULTURE 3",
+      "filename": "AGRICULTURE 3.pdf",
+      "path": "General - Unclassified/2026/AGRICULTURE 3.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/AGRICULTURE%203.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "Agriculture",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
+      "title": "AGRICULTURE ECONOMICS AND FARM MANAGEMENT",
+      "filename": "AGRICULTURE ECONOMICS AND FARM MANAGEMENT.pdf",
+      "path": "General - Unclassified/2026/AGRICULTURE ECONOMICS AND FARM MANAGEMENT.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/AGRICULTURE%20ECONOMICS%20AND%20FARM%20MANAGEMENT.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "Economics",
       "type": "Study Resources",
       "extension": "pdf"
     },
@@ -10030,6 +9859,21 @@
       "extension": "pdf"
     },
     {
+      "title": "COMPILATION OF PHYSICS PRACTICALS_unlocked",
+      "filename": "COMPILATION OF PHYSICS PRACTICALS_unlocked.pdf",
+      "path": "General - Unclassified/2026/COMPILATION OF PHYSICS PRACTICALS_unlocked.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/COMPILATION%20OF%20PHYSICS%20PRACTICALS_unlocked.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "Physics",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
       "title": "Compiled Scenario items for UACE-2026 Maths2 Mock Papers",
       "filename": "Compiled Scenario items for UACE-2026 Maths2 Mock Papers.pdf",
       "path": "General - Unclassified/2026/Compiled Scenario items for UACE-2026 Maths2 Mock Papers.pdf",
@@ -10141,6 +9985,21 @@
       "filename": "FACILITATING NEW ALEVEL CHEMISTRY 2026 1 AND 2Chemistry Learning Series.pdf",
       "path": "General - Unclassified/2026/FACILITATING NEW ALEVEL CHEMISTRY 2026 1 AND 2Chemistry Learning Series.pdf",
       "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/FACILITATING%20NEW%20ALEVEL%20CHEMISTRY%202026%201%20AND%202Chemistry%20Learning%20Series.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "Chemistry",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
+      "title": "Foundations of A'level Chemistry Organic by G Katumba_065059",
+      "filename": "Foundations of A'level Chemistry Organic by G Katumba_065059.pdf",
+      "path": "General - Unclassified/2026/Foundations of A'level Chemistry Organic by G Katumba_065059.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/Foundations%20of%20A'level%20Chemistry%20Organic%20by%20G%20Katumba_065059.pdf",
       "category": "General - Unclassified",
       "body": "General - Unclassified",
       "year": "2026",
@@ -11593,6 +11452,21 @@
       "extension": "pdf"
     },
     {
+      "title": "SEMINAR SOLUTIONS LATEST",
+      "filename": "SEMINAR SOLUTIONS LATEST.pdf",
+      "path": "General - Unclassified/2026/SEMINAR SOLUTIONS LATEST.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/SEMINAR%20SOLUTIONS%20LATEST.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "General",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
       "title": "Sub maths Paper 1 2026 -Advanced Doc Doc",
       "filename": "Sub maths Paper 1 2026 -Advanced Doc Doc.pdf",
       "path": "General - Unclassified/2026/Sub maths Paper 1 2026 -Advanced Doc Doc.pdf",
@@ -11669,10 +11543,10 @@
       "extension": "pdf"
     },
     {
-      "title": "UACE applied mathematics namirembe proposed guide 2026 (2026 import)",
-      "filename": "UACE applied mathematics namirembe proposed guide 2026 (2026 import).pdf",
-      "path": "General - Unclassified/2026/UACE applied mathematics namirembe proposed guide 2026 (2026 import).pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/UACE%20applied%20mathematics%20namirembe%20proposed%20guide%202026%20(2026%20import).pdf",
+      "title": "UACE AITEL PRINCIPAL MATHEMATICS 1 (1)",
+      "filename": "UACE AITEL PRINCIPAL MATHEMATICS 1 (1).pdf",
+      "path": "General - Unclassified/2026/UACE AITEL PRINCIPAL MATHEMATICS 1 (1).pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/UACE%20AITEL%20PRINCIPAL%20MATHEMATICS%201%20(1).pdf",
       "category": "General - Unclassified",
       "body": "General - Unclassified",
       "year": "2026",
@@ -11681,7 +11555,7 @@
         "s6"
       ],
       "subject": "Mathematics",
-      "type": "Marking Guides",
+      "type": "Study Resources",
       "extension": "pdf"
     },
     {
@@ -11749,6 +11623,22 @@
       "extension": "pdf"
     },
     {
+      "title": "Uace physics one seminar Naggalama ",
+      "filename": "Uace physics one seminar Naggalama .pdf",
+      "path": "General - Unclassified/2026/Uace physics one seminar Naggalama .pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/Uace%20physics%20one%20seminar%20Naggalama%20.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "s5",
+        "s6"
+      ],
+      "subject": "Physics",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
       "title": "UACE PHYSICS PAPER 2 SET 2026",
       "filename": "UACE PHYSICS PAPER 2 SET 2026.pdf",
       "path": "General - Unclassified/2026/UACE PHYSICS PAPER 2 SET 2026.pdf",
@@ -11769,6 +11659,22 @@
       "filename": "UACE PHYSICS PAPER 2 SET 4 2026.pdf",
       "path": "General - Unclassified/2026/UACE PHYSICS PAPER 2 SET 4 2026.pdf",
       "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/UACE%20PHYSICS%20PAPER%202%20SET%204%202026.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "s5",
+        "s6"
+      ],
+      "subject": "Physics",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
+      "title": "uace seminar Naggalama phy solutions ",
+      "filename": "uace seminar Naggalama phy solutions .pdf",
+      "path": "General - Unclassified/2026/uace seminar Naggalama phy solutions .pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/uace%20seminar%20Naggalama%20phy%20solutions%20.pdf",
       "category": "General - Unclassified",
       "body": "General - Unclassified",
       "year": "2026",
@@ -12102,6 +12008,21 @@
       "extension": "pdf"
     },
     {
+      "title": "unnase scoring guide math2",
+      "filename": "unnase scoring guide math2.pdf",
+      "path": "General - Unclassified/2026/unnase scoring guide math2.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/General%20-%20Unclassified/2026/unnase%20scoring%20guide%20math2.pdf",
+      "category": "General - Unclassified",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "General",
+      "type": "Marking Guides",
+      "extension": "pdf"
+    },
+    {
       "title": "UNNASE UACE PHY P1 GUIDE 2026, 0745687368",
       "filename": "UNNASE UACE PHY P1 GUIDE 2026, 0745687368.pdf",
       "path": "General - Unclassified/2026/UNNASE UACE PHY P1 GUIDE 2026, 0745687368.pdf",
@@ -12239,6 +12160,21 @@
       "extension": "pdf"
     },
     {
+      "title": "Physics P5101 JJEB",
+      "filename": "Physics P5101 JJEB.pdf",
+      "path": "JJEB/2026/Physics P5101 JJEB.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/JJEB/2026/Physics%20P5101%20JJEB.pdf",
+      "category": "JJEB",
+      "body": "JJEB",
+      "year": "2026",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "Physics",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
       "title": "S.6 PHYSICS MOCK  JJEB",
       "filename": "S.6 PHYSICS MOCK  JJEB.pdf",
       "path": "JJEB/2026/S.6 PHYSICS MOCK  JJEB.pdf",
@@ -12282,6 +12218,22 @@
         "s6"
       ],
       "subject": "Mathematics",
+      "type": "Study Resources",
+      "extension": "pdf"
+    },
+    {
+      "title": "kamssa uace physics paper 2",
+      "filename": "kamssa uace physics paper 2.pdf",
+      "path": "KAMSSA/2026/kamssa uace physics paper 2.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/KAMSSA/2026/kamssa%20uace%20physics%20paper%202.pdf",
+      "category": "KAMSSA",
+      "body": "KAMSSA",
+      "year": "2026",
+      "classKeys": [
+        "s5",
+        "s6"
+      ],
+      "subject": "Physics",
       "type": "Study Resources",
       "extension": "pdf"
     },
@@ -12516,23 +12468,6 @@
       "extension": "pdf"
     },
     {
-      "title": "UTEC UACE PHY P1 2026 MARKING GUIDE_061558 (2026 import)",
-      "filename": "UTEC UACE PHY P1 2026 MARKING GUIDE_061558 (2026 import).pdf",
-      "path": "UTEC/2026/UTEC UACE PHY P1 2026 MARKING GUIDE_061558 (2026 import).pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UTEC/2026/UTEC%20UACE%20PHY%20P1%202026%20MARKING%20GUIDE_061558%20(2026%20import).pdf",
-      "category": "UTEC",
-      "body": "UTEC",
-      "year": "2026",
-      "classKeys": [
-        "p1",
-        "s5",
-        "s6"
-      ],
-      "subject": "Physics",
-      "type": "Marking Guides",
-      "extension": "pdf"
-    },
-    {
       "title": "UTEC UACE PHY P1 2026 MARKING GUIDE_061558",
       "filename": "UTEC UACE PHY P1 2026 MARKING GUIDE_061558.pdf",
       "path": "UTEC/2026/UTEC UACE PHY P1 2026 MARKING GUIDE_061558.pdf",
@@ -12654,6 +12589,22 @@
       ],
       "subject": "General",
       "type": "Marking Guides",
+      "extension": "pdf"
+    },
+    {
+      "title": "WAKISHA UACE CHEMISTRY 26 -rt",
+      "filename": "WAKISHA UACE CHEMISTRY 26 -rt.pdf",
+      "path": "WAKISSHA Joint Examinations Board/2026/WAKISHA UACE CHEMISTRY 26 -rt.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/WAKISSHA%20Joint%20Examinations%20Board/2026/WAKISHA%20UACE%20CHEMISTRY%2026%20-rt.pdf",
+      "category": "WAKISSHA Joint Examinations Board",
+      "body": "WAKISSHA Joint Examinations Board",
+      "year": "2026",
+      "classKeys": [
+        "s5",
+        "s6"
+      ],
+      "subject": "Chemistry",
+      "type": "Study Resources",
       "extension": "pdf"
     },
     {
