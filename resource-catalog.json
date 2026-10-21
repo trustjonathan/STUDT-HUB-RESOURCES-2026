@@ -1,10 +1,11 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-20T18:40:11.342Z",
+  "generatedAt": "2026-10-21T09:26:48.550Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1098,
-  "trending2026Count": 232,
+  "count": 1099,
+  "trending2026Count": 233,
   "countsByBody": {
+    "UACE": 1,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
@@ -13,7 +14,6 @@
     "JJEB": 45,
     "KAMSSA": 4,
     "KASSEC - KASSHIPA": 4,
-    "Masaka Joint Mock Board": 1,
     "Matigo Examinations Board": 17,
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
@@ -21,27 +21,29 @@
     "UMTA Mock Board": 24,
     "UTEC": 12,
     "WAKATA Mock Board": 6,
-    "WAKISSHA Joint Examinations Board": 57
+    "WAKISSHA Joint Examinations Board": 57,
+    "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
+    "UACE": 1,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
     "General - Unclassified": 884,
+    "Sample UNEB Papers": 6,
     "JJEB": 45,
     "KAMSSA": 4,
     "KASSEC - KASSHIPA": 4,
-    "Masaka Joint Mock Board": 1,
     "Matigo Examinations Board": 17,
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
     "NEREB": 7,
-    "Sample UNEB Papers": 6,
     "UMTA Mock Board": 24,
     "UTEC": 12,
     "WAKATA Mock Board": 6,
-    "WAKISSHA Joint Examinations Board": 57
+    "WAKISSHA Joint Examinations Board": 57,
+    "Masaka Joint Mock Board": 1
   },
   "countsByYear": {
     "2008": 1,
@@ -54,10 +56,26 @@
     "2023": 12,
     "2024": 59,
     "2025": 168,
-    "2026": 232,
+    "2026": 233,
     "Undated": 610
   },
   "resources": [
+    {
+      "title": "UACE 2026 TIME TABLE DRAFT",
+      "filename": "UACE2026TIMETABLEDRAFT1.pdf",
+      "path": "UACE/2026/UACE2026TIMETABLEDRAFT1.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UACE/2026/UACE2026TIMETABLEDRAFT1.pdf",
+      "category": "UACE",
+      "body": "UACE",
+      "year": "2026",
+      "classKeys": [
+        "s6",
+        "s5"
+      ],
+      "subject": "TIME TABLE",
+      "type": "Past Papers",
+      "extension": "pdf"
+    },
     {
       "title": ".trashed-1794126225-Aceiteka Guide",
       "filename": ".trashed-1794126225-Aceiteka Guide.pdf",
