@@ -1,10 +1,11 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21T09:26:48.550Z",
+  "generatedAt": "2026-10-21T09:54:45.056Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1099,
-  "trending2026Count": 233,
+  "count": 1100,
+  "trending2026Count": 234,
   "countsByBody": {
+    "KASSEC - KASSHIPA": 5,
     "UACE": 1,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
@@ -13,7 +14,6 @@
     "General - Unclassified": 890,
     "JJEB": 45,
     "KAMSSA": 4,
-    "KASSEC - KASSHIPA": 4,
     "Matigo Examinations Board": 17,
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
@@ -25,6 +25,7 @@
     "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
+    "KASSEC - KASSHIPA": 5,
     "UACE": 1,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
@@ -34,7 +35,6 @@
     "Sample UNEB Papers": 6,
     "JJEB": 45,
     "KAMSSA": 4,
-    "KASSEC - KASSHIPA": 4,
     "Matigo Examinations Board": 17,
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
@@ -56,10 +56,26 @@
     "2023": 12,
     "2024": 59,
     "2025": 168,
-    "2026": 233,
+    "2026": 234,
     "Undated": 610
   },
   "resources": [
+    {
+      "title": "FINAL COPY OF UCE GUIDES 2026",
+      "filename": "FINAL COPY OF UCE GUIDES 2026.pdf",
+      "path": "KASSEC - KASSHIPA/2026/FINAL COPY OF UCE GUIDES 2026.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/KASSEC%20-%20KASSHIPA/2026/FINAL%20COPY%20OF%20UCE%20GUIDES%202026.pdf",
+      "category": "KASSEC - KASSHIPA",
+      "body": "KASSEC - KASSHIPA",
+      "year": "2026",
+      "classKeys": [
+        "s4",
+        "s3"
+      ],
+      "subject": "All Subjects",
+      "type": "Marking Guides",
+      "extension": "pdf"
+    },
     {
       "title": "UACE 2026 TIME TABLE DRAFT",
       "filename": "UACE2026TIMETABLEDRAFT1.pdf",
