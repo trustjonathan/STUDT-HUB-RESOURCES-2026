@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21T09:54:45.056Z",
+  "generatedAt": "2026-10-21T10:16:01.341Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
   "count": 1100,
-  "trending2026Count": 234,
+  "trending2026Count": 235,
   "countsByBody": {
     "KASSEC - KASSHIPA": 5,
     "UACE": 1,
@@ -56,8 +56,8 @@
     "2023": 12,
     "2024": 59,
     "2025": 168,
-    "2026": 234,
-    "Undated": 610
+    "2026": 235,
+    "Undated": 609
   },
   "resources": [
     {
@@ -93,13 +93,13 @@
       "extension": "pdf"
     },
     {
-      "title": ".trashed-1794126225-Aceiteka Guide",
+      "title": "Aceiteka Guide",
       "filename": ".trashed-1794126225-Aceiteka Guide.pdf",
-      "path": "ACEITEKA/Undated/.trashed-1794126225-Aceiteka Guide.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/ACEITEKA/Undated/.trashed-1794126225-Aceiteka%20Guide.pdf",
+      "path": "ACEITEKA/2026/.trashed-1794126225-Aceiteka Guide.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/ACEITEKA/2026/.trashed-1794126225-Aceiteka%20Guide.pdf",
       "category": "ACEITEKA",
       "body": "ACEITEKA",
-      "year": "Undated",
+      "year": "2026",
       "classKeys": [
         "unsorted"
       ],
@@ -16724,5 +16724,6 @@
       "type": "Study Resources",
       "extension": "pdf"
     }
-  ]
+  ],
+  "archivedResources": []
 }
