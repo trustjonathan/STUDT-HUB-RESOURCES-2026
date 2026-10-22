@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T05:20:14.459Z",
+  "generatedAt": "2026-10-22T05:20:23.590Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1095,
+  "count": 1094,
   "trending2026Count": 235,
   "countsByBody": {
     "KASSEC - KASSHIPA": 5,
@@ -21,7 +21,7 @@
     "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
-    "NEREB": 2,
+    "NEREB": 1,
     "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
@@ -42,7 +42,7 @@
     "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
-    "NEREB": 2,
+    "NEREB": 1,
     "Masaka Joint Mock Board": 1
   },
   "countsByYear": {
@@ -55,7 +55,7 @@
     "2022": 6,
     "2023": 12,
     "2024": 59,
-    "2025": 164,
+    "2025": 163,
     "2026": 235,
     "Undated": 608
   },
@@ -14925,21 +14925,6 @@
       "extension": "pdf"
     },
     {
-      "title": ".trashed-1794126216-HISTORY P.2 NEREB MOCKS 2025",
-      "filename": ".trashed-1794126216-HISTORY P.2 NEREB MOCKS 2025.docx",
-      "path": "NEREB/2025/.trashed-1794126216-HISTORY P.2 NEREB MOCKS 2025.docx",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/NEREB/2025/.trashed-1794126216-HISTORY%20P.2%20NEREB%20MOCKS%202025.docx",
-      "category": "NEREB",
-      "body": "NEREB",
-      "year": "2025",
-      "classKeys": [
-        "p2"
-      ],
-      "subject": "History",
-      "type": "Study Resources",
-      "extension": "docx"
-    },
-    {
       "title": ".trashed-1794126222-HISTORY P.4 NEREB MOCKS 2025",
       "filename": ".trashed-1794126222-HISTORY P.4 NEREB MOCKS 2025.docx",
       "path": "NEREB/2025/.trashed-1794126222-HISTORY P.4 NEREB MOCKS 2025.docx",
@@ -16651,6 +16636,22 @@
     }
   ],
   "archivedResources": [
+    {
+      "title": ".trashed-1794126216-HISTORY P.2 NEREB MOCKS 2025",
+      "filename": ".trashed-1794126216-HISTORY P.2 NEREB MOCKS 2025.docx",
+      "path": "NEREB/2025/.trashed-1794126216-HISTORY P.2 NEREB MOCKS 2025.docx",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/NEREB/2025/.trashed-1794126216-HISTORY%20P.2%20NEREB%20MOCKS%202025.docx",
+      "category": "NEREB",
+      "body": "NEREB",
+      "year": "2025",
+      "classKeys": [
+        "p2"
+      ],
+      "subject": "History",
+      "type": "Study Resources",
+      "extension": "docx",
+      "archivedAt": "2026-10-22T05:20:23.589Z"
+    },
     {
       "title": ".trashed-1794126215-HISTORY P.6 NEREB MOCKS 2025",
       "filename": ".trashed-1794126215-HISTORY P.6 NEREB MOCKS 2025.docx",
