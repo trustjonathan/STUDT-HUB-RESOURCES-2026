@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T05:43:20.952Z",
+  "generatedAt": "2026-10-22T05:44:42.251Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1090,
-  "trending2026Count": 234,
+  "count": 1091,
+  "trending2026Count": 235,
   "countsByBody": {
-    "UACE": 4,
+    "UACE": 5,
     "KASSEC - KASSHIPA": 5,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
@@ -24,7 +24,7 @@
     "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
-    "UACE": 4,
+    "UACE": 5,
     "KASSEC - KASSHIPA": 5,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
@@ -53,10 +53,25 @@
     "2023": 12,
     "2024": 58,
     "2025": 162,
-    "2026": 234,
+    "2026": 235,
     "Undated": 607
   },
   "resources": [
+    {
+      "title": "P310_2_Literature in English UACE Sample Paper 2026_and scoring Guide",
+      "filename": "www.exinetAcademy.com__P310_2_Literature in English UACE Sample Paper 2026_and scoring Guide.pdf",
+      "path": "UACE/2026/www.exinetAcademy.com__P310_2_Literature in English UACE Sample Paper 2026_and scoring Guide.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UACE/2026/www.exinetAcademy.com__P310_2_Literature%20in%20English%20UACE%20Sample%20Paper%202026_and%20scoring%20Guide.pdf",
+      "category": "UACE",
+      "body": "UACE",
+      "year": "2026",
+      "classKeys": [
+        "s6"
+      ],
+      "subject": "LITERATURE",
+      "type": "Past Papers",
+      "extension": "pdf"
+    },
     {
       "title": "P425_1 PRINCIPAL MATHEMATICS_UACE SamplePaper_2026",
       "filename": "P425_1 PRINCIPAL MATHEMATICS_UACE SamplePaper_2026.pdf",
