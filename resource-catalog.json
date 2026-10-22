@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T05:42:34.051Z",
+  "generatedAt": "2026-10-22T05:43:20.952Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1089,
-  "trending2026Count": 233,
+  "count": 1090,
+  "trending2026Count": 234,
   "countsByBody": {
-    "UACE": 3,
+    "UACE": 4,
     "KASSEC - KASSHIPA": 5,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
@@ -24,7 +24,7 @@
     "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
-    "UACE": 3,
+    "UACE": 4,
     "KASSEC - KASSHIPA": 5,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
@@ -53,10 +53,25 @@
     "2023": 12,
     "2024": 58,
     "2025": 162,
-    "2026": 233,
+    "2026": 234,
     "Undated": 607
   },
   "resources": [
+    {
+      "title": "P425_1 PRINCIPAL MATHEMATICS_UACE SamplePaper_2026",
+      "filename": "P425_1 PRINCIPAL MATHEMATICS_UACE SamplePaper_2026.pdf",
+      "path": "UACE/2026/P425_1 PRINCIPAL MATHEMATICS_UACE SamplePaper_2026.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UACE/2026/P425_1%20PRINCIPAL%20MATHEMATICS_UACE%20SamplePaper_2026.pdf",
+      "category": "UACE",
+      "body": "UACE",
+      "year": "2026",
+      "classKeys": [
+        "s6"
+      ],
+      "subject": "MATHEMATICS",
+      "type": "Past Papers",
+      "extension": "pdf"
+    },
     {
       "title": "P510_2 PHYSICS_UACE SamplePaper_2026_Guide",
       "filename": "P510_2 PHYSICS_UACE SamplePaper_2026_Guide.pdf",
