@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21T10:29:06.357Z",
+  "generatedAt": "2026-10-22T05:19:30.350Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1100,
+  "count": 1099,
   "trending2026Count": 235,
   "countsByBody": {
     "KASSEC - KASSHIPA": 5,
@@ -17,11 +17,11 @@
     "Matigo Examinations Board": 17,
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
-    "NEREB": 7,
     "UMTA Mock Board": 24,
     "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
+    "NEREB": 6,
     "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
@@ -38,11 +38,11 @@
     "Matigo Examinations Board": 17,
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
-    "NEREB": 7,
     "UMTA Mock Board": 24,
     "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
+    "NEREB": 6,
     "Masaka Joint Mock Board": 1
   },
   "countsByYear": {
@@ -57,7 +57,7 @@
     "2024": 59,
     "2025": 168,
     "2026": 235,
-    "Undated": 609
+    "Undated": 608
   },
   "resources": [
     {
@@ -8861,21 +8861,6 @@
       "extension": "pdf"
     },
     {
-      "title": ".trashed-1794126228-DIV 2 NEREB MOCK",
-      "filename": ".trashed-1794126228-DIV 2 NEREB MOCK.pdf",
-      "path": "NEREB/Undated/.trashed-1794126228-DIV 2 NEREB MOCK.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/NEREB/Undated/.trashed-1794126228-DIV%202%20NEREB%20MOCK.pdf",
-      "category": "NEREB",
-      "body": "NEREB",
-      "year": "Undated",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "General",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": ".trashed-1794126220-UMTA UACE DIV 3",
       "filename": ".trashed-1794126220-UMTA UACE DIV 3.pdf",
       "path": "UMTA Mock Board/Undated/.trashed-1794126220-UMTA UACE DIV 3.pdf",
@@ -16725,5 +16710,22 @@
       "extension": "pdf"
     }
   ],
-  "archivedResources": []
+  "archivedResources": [
+    {
+      "title": ".trashed-1794126228-DIV 2 NEREB MOCK",
+      "filename": ".trashed-1794126228-DIV 2 NEREB MOCK.pdf",
+      "path": "NEREB/Undated/.trashed-1794126228-DIV 2 NEREB MOCK.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/NEREB/Undated/.trashed-1794126228-DIV%202%20NEREB%20MOCK.pdf",
+      "category": "NEREB",
+      "body": "NEREB",
+      "year": "Undated",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "General",
+      "type": "Study Resources",
+      "extension": "pdf",
+      "archivedAt": "2026-10-22T05:19:30.297Z"
+    }
+  ]
 }
