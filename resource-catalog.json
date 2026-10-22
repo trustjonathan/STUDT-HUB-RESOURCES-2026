@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T05:31:40.096Z",
+  "generatedAt": "2026-10-22T05:41:43.088Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1087,
-  "trending2026Count": 231,
+  "count": 1088,
+  "trending2026Count": 232,
   "countsByBody": {
+    "UACE": 2,
     "KASSEC - KASSHIPA": 5,
-    "UACE": 1,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
@@ -24,8 +24,8 @@
     "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
+    "UACE": 2,
     "KASSEC - KASSHIPA": 5,
-    "UACE": 1,
     "ACEITEKA": 12,
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
@@ -53,10 +53,25 @@
     "2023": 12,
     "2024": 58,
     "2025": 162,
-    "2026": 231,
+    "2026": 232,
     "Undated": 607
   },
   "resources": [
+    {
+      "title": "P510_1 PHYSICS_UACE SamplePaper_2026",
+      "filename": "P510_1 PHYSICS_UACE SamplePaper_2026.pdf",
+      "path": "UACE/2026/P510_1 PHYSICS_UACE SamplePaper_2026.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UACE/2026/P510_1%20PHYSICS_UACE%20SamplePaper_2026.pdf",
+      "category": "UACE",
+      "body": "UACE",
+      "year": "2026",
+      "classKeys": [
+        "s6"
+      ],
+      "subject": "PHYSICS",
+      "type": "Past Papers",
+      "extension": "pdf"
+    },
     {
       "title": "FINAL COPY OF UCE GUIDES 2026",
       "filename": "FINAL COPY OF UCE GUIDES 2026.pdf",
