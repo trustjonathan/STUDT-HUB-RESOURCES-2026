@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T05:26:24.355Z",
+  "generatedAt": "2026-10-22T05:27:52.060Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1090,
+  "count": 1089,
   "trending2026Count": 232,
   "countsByBody": {
     "KASSEC - KASSHIPA": 5,
@@ -11,7 +11,7 @@
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
-    "General - Unclassified": 887,
+    "General - Unclassified": 886,
     "JJEB": 45,
     "KAMSSA": 4,
     "Matigo Examinations Board": 17,
@@ -31,7 +31,6 @@
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
     "General - Unclassified": 884,
-    "Sample UNEB Papers": 3,
     "JJEB": 45,
     "KAMSSA": 4,
     "Matigo Examinations Board": 17,
@@ -41,6 +40,7 @@
     "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
+    "Sample UNEB Papers": 2,
     "Masaka Joint Mock Board": 1
   },
   "countsByYear": {
@@ -55,7 +55,7 @@
     "2024": 59,
     "2025": 162,
     "2026": 232,
-    "Undated": 608
+    "Undated": 607
   },
   "resources": [
     {
@@ -6122,22 +6122,6 @@
       "subject": "Chemistry",
       "type": "Study Resources",
       "extension": "pdf"
-    },
-    {
-      "title": "Chemistry UACE sample paper",
-      "filename": "Chemistry UACE sample paper.docx",
-      "path": "Sample UNEB Papers/Undated/Chemistry UACE sample paper.docx",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/Sample%20UNEB%20Papers/Undated/Chemistry%20UACE%20sample%20paper.docx",
-      "category": "Sample UNEB Papers",
-      "body": "General - Unclassified",
-      "year": "Undated",
-      "classKeys": [
-        "s5",
-        "s6"
-      ],
-      "subject": "Chemistry",
-      "type": "Study Resources",
-      "extension": "docx"
     },
     {
       "title": "compressed_S.2 math baroque learners book",
@@ -16573,6 +16557,23 @@
     }
   ],
   "archivedResources": [
+    {
+      "title": "Chemistry UACE sample paper",
+      "filename": "Chemistry UACE sample paper.docx",
+      "path": "Sample UNEB Papers/Undated/Chemistry UACE sample paper.docx",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/Sample%20UNEB%20Papers/Undated/Chemistry%20UACE%20sample%20paper.docx",
+      "category": "Sample UNEB Papers",
+      "body": "General - Unclassified",
+      "year": "Undated",
+      "classKeys": [
+        "s5",
+        "s6"
+      ],
+      "subject": "Chemistry",
+      "type": "Study Resources",
+      "extension": "docx",
+      "archivedAt": "2026-10-22T05:27:52.059Z"
+    },
     {
       "title": "UCE Mathematics Item Bank (2026) - Sample",
       "filename": "UCE Mathematics Item Bank (2026) - Sample.pdf",
