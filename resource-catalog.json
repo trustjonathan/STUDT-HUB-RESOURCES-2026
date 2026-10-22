@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T05:27:52.060Z",
+  "generatedAt": "2026-10-22T05:28:02.567Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1089,
-  "trending2026Count": 232,
+  "count": 1088,
+  "trending2026Count": 231,
   "countsByBody": {
     "KASSEC - KASSHIPA": 5,
     "UACE": 1,
@@ -11,7 +11,7 @@
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
-    "General - Unclassified": 886,
+    "General - Unclassified": 885,
     "JJEB": 45,
     "KAMSSA": 4,
     "Matigo Examinations Board": 17,
@@ -40,7 +40,7 @@
     "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
-    "Sample UNEB Papers": 2,
+    "Sample UNEB Papers": 1,
     "Masaka Joint Mock Board": 1
   },
   "countsByYear": {
@@ -54,7 +54,7 @@
     "2023": 12,
     "2024": 59,
     "2025": 162,
-    "2026": 232,
+    "2026": 231,
     "Undated": 607
   },
   "resources": [
@@ -11688,22 +11688,6 @@
       "extension": "pdf"
     },
     {
-      "title": "UACE_Entrepreneurship_Sample_Papers-1",
-      "filename": "UACE_Entrepreneurship_Sample_Papers-1.pdf",
-      "path": "Sample UNEB Papers/2026/UACE_Entrepreneurship_Sample_Papers-1.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/Sample%20UNEB%20Papers/2026/UACE_Entrepreneurship_Sample_Papers-1.pdf",
-      "category": "Sample UNEB Papers",
-      "body": "General - Unclassified",
-      "year": "2026",
-      "classKeys": [
-        "s5",
-        "s6"
-      ],
-      "subject": "General",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": "UACE_Geography_Paper_2_Notes",
       "filename": "UACE_Geography_Paper_2_Notes.pdf",
       "path": "General - Unclassified/2026/UACE_Geography_Paper_2_Notes.pdf",
@@ -16557,6 +16541,23 @@
     }
   ],
   "archivedResources": [
+    {
+      "title": "UACE_Entrepreneurship_Sample_Papers-1",
+      "filename": "UACE_Entrepreneurship_Sample_Papers-1.pdf",
+      "path": "Sample UNEB Papers/2026/UACE_Entrepreneurship_Sample_Papers-1.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/Sample%20UNEB%20Papers/2026/UACE_Entrepreneurship_Sample_Papers-1.pdf",
+      "category": "Sample UNEB Papers",
+      "body": "General - Unclassified",
+      "year": "2026",
+      "classKeys": [
+        "s5",
+        "s6"
+      ],
+      "subject": "General",
+      "type": "Study Resources",
+      "extension": "pdf",
+      "archivedAt": "2026-10-22T05:28:02.567Z"
+    },
     {
       "title": "Chemistry UACE sample paper",
       "filename": "Chemistry UACE sample paper.docx",
