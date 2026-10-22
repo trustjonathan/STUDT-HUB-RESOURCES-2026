@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-22T05:28:02.567Z",
+  "generatedAt": "2026-10-22T05:31:40.096Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1088,
+  "count": 1087,
   "trending2026Count": 231,
   "countsByBody": {
     "KASSEC - KASSHIPA": 5,
@@ -11,7 +11,7 @@
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
-    "General - Unclassified": 885,
+    "General - Unclassified": 884,
     "JJEB": 45,
     "KAMSSA": 4,
     "Matigo Examinations Board": 17,
@@ -40,7 +40,6 @@
     "UTEC": 12,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
-    "Sample UNEB Papers": 1,
     "Masaka Joint Mock Board": 1
   },
   "countsByYear": {
@@ -52,7 +51,7 @@
     "2021": 2,
     "2022": 6,
     "2023": 12,
-    "2024": 59,
+    "2024": 58,
     "2025": 162,
     "2026": 231,
     "Undated": 607
@@ -15410,21 +15409,6 @@
       "extension": "pdf"
     },
     {
-      "title": ".trashed-1794126225-2411 History And Political Education  UNEB Sample Paper New Curriculum 2024 plus Scoring Guide (1)",
-      "filename": ".trashed-1794126225-2411 History And Political Education  UNEB Sample Paper New Curriculum 2024 plus Scoring Guide (1).pdf",
-      "path": "Sample UNEB Papers/2024/.trashed-1794126225-2411 History And Political Education  UNEB Sample Paper New Curriculum 2024 plus Scoring Guide (1).pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/Sample%20UNEB%20Papers/2024/.trashed-1794126225-2411%20History%20And%20Political%20Education%20%20UNEB%20Sample%20Paper%20New%20Curriculum%202024%20plus%20Scoring%20Guide%20(1).pdf",
-      "category": "Sample UNEB Papers",
-      "body": "General - Unclassified",
-      "year": "2024",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "History",
-      "type": "Marking Guides",
-      "extension": "pdf"
-    },
-    {
       "title": ".trashed-1794126226-Biology P.3 uneb 2024",
       "filename": ".trashed-1794126226-Biology P.3 uneb 2024.pdf",
       "path": "General - Unclassified/2024/.trashed-1794126226-Biology P.3 uneb 2024.pdf",
@@ -16541,6 +16525,22 @@
     }
   ],
   "archivedResources": [
+    {
+      "title": ".trashed-1794126225-2411 History And Political Education  UNEB Sample Paper New Curriculum 2024 plus Scoring Guide (1)",
+      "filename": ".trashed-1794126225-2411 History And Political Education  UNEB Sample Paper New Curriculum 2024 plus Scoring Guide (1).pdf",
+      "path": "Sample UNEB Papers/2024/.trashed-1794126225-2411 History And Political Education  UNEB Sample Paper New Curriculum 2024 plus Scoring Guide (1).pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/Sample%20UNEB%20Papers/2024/.trashed-1794126225-2411%20History%20And%20Political%20Education%20%20UNEB%20Sample%20Paper%20New%20Curriculum%202024%20plus%20Scoring%20Guide%20(1).pdf",
+      "category": "Sample UNEB Papers",
+      "body": "General - Unclassified",
+      "year": "2024",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "History",
+      "type": "Marking Guides",
+      "extension": "pdf",
+      "archivedAt": "2026-10-22T05:31:40.096Z"
+    },
     {
       "title": "UACE_Entrepreneurship_Sample_Papers-1",
       "filename": "UACE_Entrepreneurship_Sample_Papers-1.pdf",
