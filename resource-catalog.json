@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T03:59:56.663Z",
+  "generatedAt": "2026-10-23T04:00:06.155Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1087,
+  "count": 1086,
   "trending2026Count": 235,
   "countsByBody": {
     "UACE": 5,
@@ -18,7 +18,7 @@
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
     "UMTA Mock Board": 24,
-    "UTEC": 8,
+    "UTEC": 7,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
     "Masaka Joint Mock Board": 1
@@ -37,7 +37,7 @@
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
     "UMTA Mock Board": 24,
-    "UTEC": 8,
+    "UTEC": 7,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
     "Masaka Joint Mock Board": 1
@@ -51,7 +51,7 @@
     "2021": 2,
     "2022": 6,
     "2023": 12,
-    "2024": 58,
+    "2024": 57,
     "2025": 160,
     "2026": 235,
     "Undated": 605
@@ -15933,21 +15933,6 @@
       "extension": "pdf"
     },
     {
-      "title": ".trashed-1794126215-UTEC 2024 History P2103",
-      "filename": ".trashed-1794126215-UTEC 2024 History P2103.pdf",
-      "path": "UTEC/2024/.trashed-1794126215-UTEC 2024 History P2103.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UTEC/2024/.trashed-1794126215-UTEC%202024%20History%20P2103.pdf",
-      "category": "UTEC",
-      "body": "UTEC",
-      "year": "2024",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "History",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": ".trashed-1794126216-WAKATA MOCK EXAMINATION  UACE  PHYSICS PAPER 1  2024",
       "filename": ".trashed-1794126216-WAKATA MOCK EXAMINATION  UACE  PHYSICS PAPER 1  2024.pdf",
       "path": "WAKATA Mock Board/2024/.trashed-1794126216-WAKATA MOCK EXAMINATION  UACE  PHYSICS PAPER 1  2024.pdf",
@@ -16524,6 +16509,22 @@
     }
   ],
   "archivedResources": [
+    {
+      "title": ".trashed-1794126215-UTEC 2024 History P2103",
+      "filename": ".trashed-1794126215-UTEC 2024 History P2103.pdf",
+      "path": "UTEC/2024/.trashed-1794126215-UTEC 2024 History P2103.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UTEC/2024/.trashed-1794126215-UTEC%202024%20History%20P2103.pdf",
+      "category": "UTEC",
+      "body": "UTEC",
+      "year": "2024",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "History",
+      "type": "Study Resources",
+      "extension": "pdf",
+      "archivedAt": "2026-10-23T04:00:06.155Z"
+    },
     {
       "title": ".trashed-1794126222-UCE BIO 1 - UTEC 2025",
       "filename": ".trashed-1794126222-UCE BIO 1 - UTEC 2025.pdf",
