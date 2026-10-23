@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T04:00:06.155Z",
+  "generatedAt": "2026-10-23T04:00:15.152Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1086,
+  "count": 1085,
   "trending2026Count": 235,
   "countsByBody": {
     "UACE": 5,
@@ -18,7 +18,7 @@
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
     "UMTA Mock Board": 24,
-    "UTEC": 7,
+    "UTEC": 6,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
     "Masaka Joint Mock Board": 1
@@ -37,7 +37,7 @@
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
     "UMTA Mock Board": 24,
-    "UTEC": 7,
+    "UTEC": 6,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
     "Masaka Joint Mock Board": 1
@@ -52,7 +52,7 @@
     "2022": 6,
     "2023": 12,
     "2024": 57,
-    "2025": 160,
+    "2025": 159,
     "2026": 235,
     "Undated": 605
   },
@@ -14952,21 +14952,6 @@
       "extension": "pdf"
     },
     {
-      "title": ".trashed-1794126232-UTEC BIO-2 MOCK_2025",
-      "filename": ".trashed-1794126232-UTEC BIO-2 MOCK_2025.pdf",
-      "path": "UTEC/2025/.trashed-1794126232-UTEC BIO-2 MOCK_2025.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UTEC/2025/.trashed-1794126232-UTEC%20BIO-2%20MOCK_2025.pdf",
-      "category": "UTEC",
-      "body": "UTEC",
-      "year": "2025",
-      "classKeys": [
-        "unsorted"
-      ],
-      "subject": "Biology",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": ".trashed-1794126215-UCE MTC WAKISSHA 2025",
       "filename": ".trashed-1794126215-UCE MTC WAKISSHA 2025.pdf",
       "path": "WAKISSHA Joint Examinations Board/2025/.trashed-1794126215-UCE MTC WAKISSHA 2025.pdf",
@@ -16509,6 +16494,22 @@
     }
   ],
   "archivedResources": [
+    {
+      "title": ".trashed-1794126232-UTEC BIO-2 MOCK_2025",
+      "filename": ".trashed-1794126232-UTEC BIO-2 MOCK_2025.pdf",
+      "path": "UTEC/2025/.trashed-1794126232-UTEC BIO-2 MOCK_2025.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UTEC/2025/.trashed-1794126232-UTEC%20BIO-2%20MOCK_2025.pdf",
+      "category": "UTEC",
+      "body": "UTEC",
+      "year": "2025",
+      "classKeys": [
+        "unsorted"
+      ],
+      "subject": "Biology",
+      "type": "Study Resources",
+      "extension": "pdf",
+      "archivedAt": "2026-10-23T04:00:15.152Z"
+    },
     {
       "title": ".trashed-1794126215-UTEC 2024 History P2103",
       "filename": ".trashed-1794126215-UTEC 2024 History P2103.pdf",
