@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T03:59:26.558Z",
+  "generatedAt": "2026-10-23T03:59:34.383Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1090,
+  "count": 1089,
   "trending2026Count": 235,
   "countsByBody": {
     "UACE": 5,
@@ -18,7 +18,7 @@
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
     "UMTA Mock Board": 24,
-    "UTEC": 11,
+    "UTEC": 10,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
     "Masaka Joint Mock Board": 1
@@ -37,7 +37,7 @@
     "Mbale City Joint Secondary Examinations Board": 1,
     "Mukono District Joint Mock Examinations Board": 2,
     "UMTA Mock Board": 24,
-    "UTEC": 11,
+    "UTEC": 10,
     "WAKATA Mock Board": 6,
     "WAKISSHA Joint Examinations Board": 57,
     "Masaka Joint Mock Board": 1
@@ -54,7 +54,7 @@
     "2024": 58,
     "2025": 162,
     "2026": 235,
-    "Undated": 606
+    "Undated": 605
   },
   "resources": [
     {
@@ -8978,22 +8978,6 @@
       "extension": "pdf"
     },
     {
-      "title": ".trashed-1794126226-UTEC UACE PHYSICS PAPER 1",
-      "filename": ".trashed-1794126226-UTEC UACE PHYSICS PAPER 1.pdf",
-      "path": "UTEC/Undated/.trashed-1794126226-UTEC UACE PHYSICS PAPER 1.pdf",
-      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UTEC/Undated/.trashed-1794126226-UTEC%20UACE%20PHYSICS%20PAPER%201.pdf",
-      "category": "UTEC",
-      "body": "UTEC",
-      "year": "Undated",
-      "classKeys": [
-        "s5",
-        "s6"
-      ],
-      "subject": "Physics",
-      "type": "Study Resources",
-      "extension": "pdf"
-    },
-    {
       "title": "bio a level utec",
       "filename": "bio a level utec.pdf",
       "path": "UTEC/Undated/bio a level utec.pdf",
@@ -16570,6 +16554,23 @@
     }
   ],
   "archivedResources": [
+    {
+      "title": ".trashed-1794126226-UTEC UACE PHYSICS PAPER 1",
+      "filename": ".trashed-1794126226-UTEC UACE PHYSICS PAPER 1.pdf",
+      "path": "UTEC/Undated/.trashed-1794126226-UTEC UACE PHYSICS PAPER 1.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UTEC/Undated/.trashed-1794126226-UTEC%20UACE%20PHYSICS%20PAPER%201.pdf",
+      "category": "UTEC",
+      "body": "UTEC",
+      "year": "Undated",
+      "classKeys": [
+        "s5",
+        "s6"
+      ],
+      "subject": "Physics",
+      "type": "Study Resources",
+      "extension": "pdf",
+      "archivedAt": "2026-10-23T03:59:34.383Z"
+    },
     {
       "title": ".trashed-1794126219-UTEC apllied math 225 proposed guide By EH_251018_164959",
       "filename": ".trashed-1794126219-UTEC apllied math 225 proposed guide By EH_251018_164959.pdf",
