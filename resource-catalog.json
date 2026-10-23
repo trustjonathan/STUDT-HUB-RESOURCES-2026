@@ -1,10 +1,11 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T04:00:15.152Z",
+  "generatedAt": "2026-10-23T04:15:08.561Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1085,
-  "trending2026Count": 235,
+  "count": 1086,
+  "trending2026Count": 236,
   "countsByBody": {
+    "UCE": 1,
     "UACE": 5,
     "KASSEC - KASSHIPA": 5,
     "ACEITEKA": 12,
@@ -24,6 +25,7 @@
     "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
+    "UCE": 1,
     "UACE": 5,
     "KASSEC - KASSHIPA": 5,
     "ACEITEKA": 12,
@@ -53,10 +55,26 @@
     "2023": 12,
     "2024": 57,
     "2025": 159,
-    "2026": 235,
+    "2026": 236,
     "Undated": 605
   },
   "resources": [
+    {
+      "title": "UNEB CHEMISTRY PRACTICAL BASED ON CONFIDENTIAL INSTRUCTIONS",
+      "filename": "UNEB CHEMISTRY PRACTICAL BASED ON CONFIDENTIAL INSTRUCTIONS.pdf",
+      "path": "UCE/2026/UNEB CHEMISTRY PRACTICAL BASED ON CONFIDENTIAL INSTRUCTIONS.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/UCE/2026/UNEB%20CHEMISTRY%20PRACTICAL%20BASED%20ON%20CONFIDENTIAL%20INSTRUCTIONS.pdf",
+      "category": "UCE",
+      "body": "UCE",
+      "year": "2026",
+      "classKeys": [
+        "s3",
+        "s4"
+      ],
+      "subject": "CHEMISTRY",
+      "type": "Past Papers",
+      "extension": "pdf"
+    },
     {
       "title": "P310_2_Literature in English UACE Sample Paper 2026_and scoring Guide",
       "filename": "www.exinetAcademy.com__P310_2_Literature in English UACE Sample Paper 2026_and scoring Guide.pdf",
