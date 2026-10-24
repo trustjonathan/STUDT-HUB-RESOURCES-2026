@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-23T04:15:08.561Z",
+  "generatedAt": "2026-10-24T15:22:24.385Z",
   "repository": "https://github.com/trustjonathan/STUDT-HUB-RESOURCES-2026",
-  "count": 1086,
-  "trending2026Count": 236,
+  "count": 1087,
+  "trending2026Count": 237,
   "countsByBody": {
+    "ACEITEKA": 13,
     "UCE": 1,
     "UACE": 5,
     "KASSEC - KASSHIPA": 5,
-    "ACEITEKA": 12,
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
@@ -25,10 +25,10 @@
     "Masaka Joint Mock Board": 1
   },
   "countsByCategory": {
+    "ACEITEKA": 13,
     "UCE": 1,
     "UACE": 5,
     "KASSEC - KASSHIPA": 5,
-    "ACEITEKA": 12,
     "APEX Mock Board": 4,
     "ASSHU Regional Boards": 10,
     "Bushenyi Secondary Schools Examinations Committee": 2,
@@ -55,10 +55,26 @@
     "2023": 12,
     "2024": 57,
     "2025": 159,
-    "2026": 236,
+    "2026": 237,
     "Undated": 605
   },
   "resources": [
+    {
+      "title": "S.6 ECONOMICS  MOCKS 2026",
+      "filename": "S.6 ECONOMICS  MOCKS 2026.pdf",
+      "path": "ACEITEKA/2026/S.6 ECONOMICS  MOCKS 2026.pdf",
+      "url": "https://raw.githubusercontent.com/trustjonathan/STUDT-HUB-RESOURCES-2026/main/ACEITEKA/2026/S.6%20ECONOMICS%20%20MOCKS%202026.pdf",
+      "category": "ACEITEKA",
+      "body": "ACEITEKA",
+      "year": "2026",
+      "classKeys": [
+        "s6",
+        "s5"
+      ],
+      "subject": "ECONOMICS",
+      "type": "Past Papers",
+      "extension": "pdf"
+    },
     {
       "title": "UNEB CHEMISTRY PRACTICAL BASED ON CONFIDENTIAL INSTRUCTIONS",
       "filename": "UNEB CHEMISTRY PRACTICAL BASED ON CONFIDENTIAL INSTRUCTIONS.pdf",
